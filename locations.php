@@ -6,6 +6,8 @@
  * Time: 13:19
  */
 
+include 'dbconnect.php';
+
 // Start XML file, create parent node
 
 $dom = new DOMDocument("1.0");
